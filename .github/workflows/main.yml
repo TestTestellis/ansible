@@ -24,7 +24,7 @@ jobs:
       - name: Install test dependencies
         run: >
           sudo apt install virtualbox vagrant -y
-          && pip3 install ansible molecule[vagrant]
+          && pip3 install ansible-core ansible-lint yamllint molecule molecule-vagrant
 
       - name: Test
         run: molecule test
