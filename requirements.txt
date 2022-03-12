@@ -1,0 +1,7 @@
+# Requirements for building
+
+ansible-core
+ansible-lint
+yamllint
+molecule
+molecule-vagrant

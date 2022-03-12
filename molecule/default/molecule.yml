@@ -1,0 +1,16 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: vagrant
+lint: |
+  set -e
+  yamllint -s .
+  ansible-lint
+platforms:
+  - name: workstation-pop-os
+    box: xtangle/pop_os-20.10
+provisioner:
+  name: ansible
+verifier:
+  name: ansible
