@@ -1,6 +1,6 @@
 # Ansible
 
-[![Main](https://github.com/AkiKanellis/ansible/workflows/Main/badge.svg?event=push)](https://github.com/AkiKanellis/ansible/actions?query=workflow%3AMain)
+[![Main](https://github.com/AkiKanellis/ansible/actions/workflows/main.yml/badge.svg)](https://github.com/AkiKanellis/ansible/actions/workflows/main.yml)
 
 My personal ansible setup for my workstations and servers.
 
