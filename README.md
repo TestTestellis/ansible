@@ -8,16 +8,17 @@ My personal ansible setup for my workstations and servers.
 
 ### Prerequisites
 
-Make sure you install the following:
+Software:
 
 * [Python 3](https://www.python.org/downloads/)
-* [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
-* [Ansible Lint](https://ansible-lint.readthedocs.io/en/latest/installing.html)
-* [Yamllint](https://yamllint.readthedocs.io/en/stable/quickstart.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant](https://www.vagrantup.com/docs/installation)
-* [Molecule](https://molecule.readthedocs.io/en/latest/installation.html)
+
+Python requirements:
+
+```shell
+pip install -r requirements.txt
+```
 
 ### Linting
 
