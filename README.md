@@ -8,7 +8,7 @@ My personal ansible setup for my workstations and servers.
 
 ### Prerequisites
 
-Software:
+Software
 
 * [Python 3](https://www.python.org/downloads/)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
