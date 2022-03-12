@@ -1,0 +1,27 @@
+---
+name: Main
+'on':
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the codebase
+        uses: actions/checkout@v2
+
+      - name: Install Python 3.
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install test dependencies
+        run: >
+          sudo apt install virtualbox virtualbox-ext-pack vagrant -y
+          && pip3 install ansible molecule[vagrant]
+
+      - name: Test
+        run: molecule test
