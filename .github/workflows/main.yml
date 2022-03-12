@@ -8,13 +8,10 @@ name: Main
 jobs:
   test:
     name: Test
-    runs-on: ubuntu-latest
+    runs-on: macos-11
     steps:
       - name: Check out the codebase
         uses: actions/checkout@v2
-
-      - name: Update package cache
-        run: sudo apt update
 
       - name: Install Python 3
         uses: actions/setup-python@v2
@@ -22,9 +19,7 @@ jobs:
           python-version: 3.x
 
       - name: Install test dependencies
-        run: >
-          sudo apt install virtualbox vagrant -y
-          && pip3 install ansible-core ansible-lint yamllint molecule molecule-vagrant
+        run: pip3 install ansible-core ansible-lint yamllint molecule molecule-vagrant
 
       - name: Test
         run: molecule test
