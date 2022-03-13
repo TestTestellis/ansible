@@ -62,6 +62,10 @@ labels:
     color: D876E3
     description: Further information is requested
 
+  - name: stale
+    color: FBCA04
+    description: A stale issue or pull request
+
   - name: invalid
     color: FFFFFF
     description: This doesn't seem right
