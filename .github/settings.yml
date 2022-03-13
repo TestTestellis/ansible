@@ -34,7 +34,7 @@ labels:
     color: B60205
     description: Something isn't working
 
-  - name: maintainance
+  - name: chore
     color: 0BFADA
     description: Maintainance of existing features
 
