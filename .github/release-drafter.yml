@@ -9,6 +9,9 @@ template: |
   **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...v$RESOLVED_VERSION
 
 categories:
+  - title: ❌ Breaking
+    label: breaking
+
   - title: 🚀 Features
     label: feature
 
@@ -23,12 +26,15 @@ categories:
 
 version-resolver:
   major:
-    labels: [major]
+    labels: [breaking]
 
   minor:
-    labels: [minor]
+    labels: [feature]
 
   patch:
-    labels: [patch]
+    labels:
+      - bug
+      - chore
+      - documentation
 
   default: patch
