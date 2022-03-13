@@ -6,7 +6,7 @@ name: Pull Request
 
 jobs:
   test:
-    uses: ./.github/workflows/test.yml
+    uses: .github/workflows/test.yml
 
   label:
     runs-on: ubuntu-latest
