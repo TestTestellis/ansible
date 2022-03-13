@@ -1,7 +1,5 @@
-# Requirements for building
-
-ansible-core
-ansible-lint
-yamllint
-molecule
-molecule-vagrant
+ansible-core==2.12.3
+ansible-lint==5.4.0
+yamllint==1.26.3
+molecule==3.6.1
+molecule-vagrant==1.0.0
