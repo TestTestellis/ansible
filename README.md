@@ -3,13 +3,13 @@
 # Ansible
 
 [![Main](https://github.com/AkiKanellis/ansible/actions/workflows/main.yml/badge.svg)](https://github.com/AkiKanellis/ansible/actions/workflows/main.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.txt)
 
 My personal ansible setup for my workstations and servers.
 
-## Building
+## Development
 
-### Prerequisites
+### Setup
 
 Make sure you have the following installed:
 
@@ -46,3 +46,7 @@ Testing will lint, create the VMs, run the playbook and destroy the VMs.
 ```shell
 molecule test
 ```
+
+## License
+
+This project is licensed under the terms of the MIT license, see [LICENSE](./LICENSE.txt).
