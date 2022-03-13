@@ -46,3 +46,7 @@ Testing will lint, create the VMs, run the playbook and destroy the VMs.
 ```shell
 molecule test
 ```
+
+## License
+
+This project is licensed under the MIT license, see [LICENSE.txt](./LICENSE.txt).
