@@ -7,3 +7,10 @@ name: Pull Request
 jobs:
   test:
     uses: ./.github/workflows/test.yml
+
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: TimonVS/pr-labeler-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

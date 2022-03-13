@@ -1,0 +1,5 @@
+---
+feature: feat/*
+bug: bug/*
+chore: chore/*
+documentation: docs/*
