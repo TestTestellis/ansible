@@ -1,6 +1,9 @@
+<img height="150" src="docs/images/homelab.png"/>
+
 # Ansible
 
 [![Main](https://github.com/AkiKanellis/ansible/actions/workflows/main.yml/badge.svg)](https://github.com/AkiKanellis/ansible/actions/workflows/main.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 My personal ansible setup for my workstations and servers.
 
