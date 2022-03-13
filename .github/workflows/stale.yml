@@ -13,8 +13,6 @@ jobs:
     steps:
       - uses: actions/stale@v4
         with:
-          repo-token: ${{ secrets.GH_BOT_ACCESS_TOKEN }}
-
           days-before-stale: 30
           days-before-close: 14
 
